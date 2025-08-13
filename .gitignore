@@ -1,0 +1,29 @@
+# Entornos virtuales
+venv/
+env/
+.env
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.idea/
+.vscode/
+
+# Archivos de logs
+*.log
+
+# Archivos estáticos y de medios de Django
+staticfiles/
+media/
+
+# Archivos de dependencias de Python
+pip-freeze.txt
+requirements.txt

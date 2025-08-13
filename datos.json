@@ -1,0 +1,44 @@
+[
+  {
+    "model": "inventario.categoria",
+    "pk": 1,
+    "fields": { "nombre": "Electrónica" }
+  },
+  {
+    "model": "inventario.categoria",
+    "pk": 2,
+    "fields": { "nombre": "Muebles" }
+  },
+  {
+    "model": "inventario.proveedor",
+    "pk": 1,
+    "fields": { "nombre": "Proveedor XYZ", "email": "proveedorxyz@example.com" }
+  },
+  {
+    "model": "inventario.proveedor",
+    "pk": 2,
+    "fields": { "nombre": "Proveedor ABC", "email": "proveedorabc@example.com" }
+  },
+  {
+    "model": "inventario.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Laptop ASUS",
+      "sku": "LAP123",
+      "precio": 850.50,
+      "stock": 10,
+      "categoria": 1
+    }
+  },
+  {
+    "model": "inventario.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Silla ergonómica",
+      "sku": "SILL456",
+      "precio": 120.75,
+      "stock": 5,
+      "categoria": 2
+    }
+  }
+]
